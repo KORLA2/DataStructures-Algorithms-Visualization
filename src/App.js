@@ -60,7 +60,7 @@ return (
         <Route path="/algorithms" element={<Algorithms />} />
         <Route path="/algorithms/sorting" element={<Sorting />}></Route>
 
-        {/* <Route
+         <Route
           path="/algorithms/sorting/Bubble"
           element={
             <div>
@@ -84,16 +84,16 @@ return (
               />
             </div>
           }
-        /> */}
-        {/* 
+        />
+         
         <Route
           path="/algorithms/sorting/Selection"
           element={
             <div>
               <Heading /> <Selection />
             </div>
-          }
-        /> */}
+          
+        /> 
         <Route
           path="/algorithms/sorting/Merge"
           element={
